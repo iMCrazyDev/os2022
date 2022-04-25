@@ -20,7 +20,8 @@ int main()
     int* array;
     int   semid;
     key_t   key;
-    int n = 2;
+    int n;
+    scanf("%d", &n);
     int     fd[2], result;
 
     size_t size;
