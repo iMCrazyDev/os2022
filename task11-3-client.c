@@ -28,7 +28,7 @@ int main() {
     } response_data;
 
     double input;
-    printf("enter number: \n")
+    printf("enter number: \n");
     scanf("%lf", &input);
 
     if ((key = ftok(pathname, 0)) < 0) {
